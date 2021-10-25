@@ -1,0 +1,30 @@
+{
+    "notes": [
+      {
+        "id": 2,
+        "color": "blue",
+        "category": "grocery",
+        "is_done": false,
+        "is_list": false,
+        "author": "Leanne"
+      },
+      {
+          "id": 2,
+          "color": "green",
+          "category": "shopping",
+          "is_done": false,
+          "is_list": true,
+          "author": "Tammy",
+          "type": "checklist"
+        },
+        {
+          "id": 10,
+          "color": "blue",
+          "category": "journal",
+          "is_done": false,
+          "is_list": false,
+          "author": "Leanne",
+          "type": "blank_sheet"
+        }
+    ]
+  }
