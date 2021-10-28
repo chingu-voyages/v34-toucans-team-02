@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="index.js"></script>
-  <title>Chingu Notes</title>
-</head>
-<body>
-  <nav>
-    <div class="logo"></div>
-    <div class= "notes">Notes</div>
-    <section class="categories">
-      Categories
-      <ul class="categories">
-        <li>ui/ux</li>
-        <li>html</li>
-        <li>javascript</li>
-        <li>css</li>
-        <li>food</li>
-        <li>todo</li>
-      </ul>
-    </section>
-    <section class="my-tags">
-      My Tags
-      <ul class="my-tags">
-        <li>#Recipes</li>
-        <li>#Passwords</li>
-        <li>#Websites</li>
-        <li>#Shopping</li>
-      </ul>
-    </section>
-    <section class="archive">Archive</section>
-    <section class="trash-bin">Trash Bin</section>
-  </nav>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e8644e93da.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <title>Chingu Notes</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <div class="notes">Notes</div>
+      <section class="categories">
+        Categories
+        <ul class="categories">
+          <li>ui/ux</li>
+          <li>html</li>
+          <li>javascript</li>
+          <li>css</li>
+          <li>food</li>
+          <li>todo</li>
+        </ul>
+      </section>
+      <section class="my-tags">
+        My Tags
+        <ul class="my-tags">
+          <li>#Recipes</li>
+          <li>#Passwords</li>
+          <li>#Websites</li>
+          <li>#Shopping</li>
+        </ul>
+      </section>
+      <section class="archive">Archive</section>
+      <section class="trash-bin">Trash Bin</section>
+    </nav>
+    <main>
+      <div id="newnote">
+        <button class="add-new-note">
+          <i class="fas fa-plus"></i>  New Note</button>
+      </div>
+      <section id="pinned">
+        <div class="memo">
+          <div class="memo-top">
+            <h3>Note 1 title</h3>
+            <button class="pin"><i class="fas fa-map-pin"></i></button>
+          </div>
+          <div class="content">
+          <p>123456789$$$</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin scelerisque posuere. Etiam tempor non magna sit amet consequat. Curabitur nec malesuada augue. Aenean rhoncus neque id massa aliquam tincidunt. Proin ac eros vulputate, fermentum ligula et, dignissim ipsum. Nulla mattis venenatis fermentum. Sed non facilisis orci, eu consectetur ante. Donec tristique urna non rutrum vehicula. Fusce ac aliquam lacus, ac feugiat urna. Aenean commodo ante non elit bibendum tincidunt.</p>
+
+          </div>
+          <div class="tags">
+            <button class='tag'># Passwords</button>
+            <button class='tag'># Websites</button>
+          </div>
+          <ul class="icon-container icon-active">
+            <button class="change-color"><i class="fas fa-paint-brush"></i></button></button>
+            <button class="add-tags"><i class="fas fa-hashtag"></i></button>
+            <button class="archive"><i class="fas fa-folder"></i></button>
+            <button class="delete"><i class="fas fa-trash-alt"></i></button>
+          </ul>
+        </div>
+
+        
+      </section>
+      <section id="others"></section>
+    </main>
+  </body>
 </html>

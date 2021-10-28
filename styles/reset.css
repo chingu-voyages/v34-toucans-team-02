@@ -1,0 +1,76 @@
+/* Reset */
+
+:root {
+  /* colors */
+  --memo-color-pink: #feb2b7;
+  --memo-color-orange: #fad09b;
+  --memo-color-yellow: #fffec5;
+  --memo-color-green: #bed9d4;
+  --memo-color-blue: #c9e4ff;
+  --memo-color-violet: #dfe0ff;
+  --color-black: #1d1d1d;
+  --color-darkgray: #434343;
+  --color-gray: #b5b5b5;
+  --color-lightgray: #eeeeee;
+  --color-verylightgray: #f6f6f6;
+  --color-sun: #ff7a00;
+  --color-moon: #ffef5d;
+  /* spacing */
+  --spacing-xxl: 8rem;
+  --spacing-xl: 4.5rem;
+  --spacing-l: 3.5rem;
+  --spacing-m: 2rem;
+  --spacing-s: 1rem;
+  --spacing-xs: 0.5rem;
+  /* font sizes */
+  --fontsize-xl: 1.25rem;
+  --fontsize-l: 1.125rem;
+  --fontsize-m: 1rem;
+  --fontsize-s: 0.875rem;
+  --fontsize-xs: 0.75rem;
+  --fontsize-xxs: 0.68rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}

@@ -1,39 +1,108 @@
-/* Reset */
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-ul,
-ol,
-li,
-dl,
-dt,
-dd {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button:focus,
-button:active,
-input:focus,
-input:active {
-  outline: none;
-  box-shadow: none;
-}
-
-button {
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-}
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: transparent;
+}
+
+h3 {
+  font-size: var(--fontsize-m);
+  font-weight: 500;
+}
+
+nav {
+  background-color: var(--color-verylightgray);
+}
+
+main {
+  margin-left: var(--spacing-m);
+}
+/* ------------------------- */
+/* layout
+/* ------------------------- */
+body {
+  display: flex;
+}
+
+nav {
+  height: 100vh;
+  width: 12rem;
+}
+
+/* ------------------------- */
+/* adding new note 
+/* ------------------------- */
+#newnote button {
+  font-size: var(--fontsize-xl);
+  padding: 2rem 0;
+}
+
+/* ------------------------- */
+/* memo style */
+/* ------------------------- */
+
+.memo {
+  background-color: var(--memo-color-blue);
+  max-width: 24rem;
+  height: 19rem;
+  border-radius: 0.74rem;
+  padding: var(--spacing-m);
+  overflow: hidden;
+}
+
+.memo-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.memo-top .pin {
+  color: #1d5388;
+  font-size: var(--fontsize-l);
+  transform: rotate(30deg);
+}
+
+.content {
+  min-height: 8rem;
+  margin: var(--spacing-s) 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.content p {
+  font-size: var(--fontsize-xs);
+}
+
+.tags {
+  display: flex;
+}
+
+.tag {
+  background-color: white;
+  padding: var(--spacing-xs) var(--spacing-xs);
+  border-radius: 20px;
+  margin-right: var(--spacing-xs);
+  font-size: var(--fontsize-xs);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--spacing-s);
+  visibility: hidden;
+}
+
+.icon-container button {
+  padding: 0 var(--spacing-s);
+  color: #1d5388;
+  font-size: var(--fontsize-s);
+}
+
+.icon-active {
+  visibility: visible;
 }
