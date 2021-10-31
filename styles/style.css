@@ -32,6 +32,10 @@ nav {
   height: 100vh;
   width: 12rem;
 }
+.chingu-notes-logo {
+  height: 8%;
+  width: auto;
+}
 
 /* ------------------------- */
 /* adding new note 
