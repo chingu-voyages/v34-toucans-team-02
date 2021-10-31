@@ -32,10 +32,10 @@ nav {
   height: 100vh;
   width: 12rem;
 }
-.chingu-notes-logo {
+/* .chingu-notes-logo {
   height: 8%;
   width: auto;
-}
+} */
 
 /* ------------------------- */
 /* adding new note 
@@ -109,4 +109,36 @@ nav {
 
 .icon-active {
   visibility: visible;
+}
+
+.chingu-notes-logo {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 100px;
+  height:auto;
+}
+
+.notes {
+  margin-left: 20px;
+}
+
+.archive {
+  margin-left: 20px;
+}
+
+.trash-bin {
+  margin-left: 20px;
+}
+
+.fa-pencil-alt {
+  float: right;
+  margin-right: 5px;
+}
+
+.categories {
+  margin-left: 20px;
+}
+
+.my-tags {
+  margin-left: 20px;
 }
