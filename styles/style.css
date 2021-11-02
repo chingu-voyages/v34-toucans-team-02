@@ -62,6 +62,14 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+.memo-top textarea {
+  resize: none;
+  border: none;
+  background-color: var(--memo-color-blue);
+  font-size: var(--fontsize-l);
+  font-family: 'Roboto', sans-serif;
+
+}
 
 .memo-top .pin {
   color: #1d5388;
