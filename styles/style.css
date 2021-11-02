@@ -82,6 +82,14 @@ nav {
   font-size: var(--fontsize-xs);
 }
 
+.input-text-area {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--memo-color-blue);
+  font-size: var(--fontsize-xs);
+  resize: none;
+  border: none;
+}
+
 .tags {
   display: flex;
 }

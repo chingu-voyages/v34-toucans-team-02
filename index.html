@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="scripts/main.js"></script>
     <link rel="stylesheet" href="styles/style.css" />
     <script
       src="https://kit.fontawesome.com/e8644e93da.js"
@@ -44,10 +43,10 @@
       <section class="archive"><i class="fas fa-folder"></i> Archive</section><br>
       <section class="trash-bin"><i class="fas fa-trash-alt"></i> Trash Bin</section>
     </nav>
-    <main>
+    <main class="main">
       <div id="newnote">
         <button class="add-new-note">
-          <i class="fas fa-plus"></i>  New Note</button>
+          <i class="fas fa-plus"></i>New Note</button>
       </div>
       <section id="pinned">
         <div class="memo">
@@ -56,9 +55,7 @@
             <button class="pin"><i class="fas fa-map-pin"></i></button>
           </div>
           <div class="content">
-          <p>123456789$$$</p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin scelerisque posuere. Etiam tempor non magna sit amet consequat. Curabitur nec malesuada augue. Aenean rhoncus neque id massa aliquam tincidunt. Proin ac eros vulputate, fermentum ligula et, dignissim ipsum. Nulla mattis venenatis fermentum. Sed non facilisis orci, eu consectetur ante. Donec tristique urna non rutrum vehicula. Fusce ac aliquam lacus, ac feugiat urna. Aenean commodo ante non elit bibendum tincidunt.</p>
-
+            <textarea class="input-text-area" rows="8" cols="30"></textarea>
           </div>
           <div class="tags">
             <button class='tag'># Passwords</button>
@@ -77,4 +74,5 @@
       <section id="others"></section>
     </main>
   </body>
+  <script src="scripts/main.js"></script>
 </html>
