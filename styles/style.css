@@ -19,7 +19,9 @@ nav {
 }
 
 main {
+  flex-flow: column wrap;
   margin-left: var(--spacing-m);
+
 }
 /* ------------------------- */
 /* layout
@@ -56,6 +58,8 @@ nav {
   border-radius: 0.74rem;
   padding: var(--spacing-m);
   overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .memo-top {
