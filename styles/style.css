@@ -61,6 +61,8 @@ nav {
   border-radius: 0.74rem;
   padding: var(--spacing-m);
   overflow: hidden;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .memo-top {
