@@ -50,7 +50,10 @@ nav {
 /* ------------------------- */
 /* memo style */
 /* ------------------------- */
-
+#pinned {
+  display: flex;
+  flex-flow: row wrap;
+}
 .memo {
   background-color: var(--memo-color-blue);
   max-width: 24rem;
@@ -58,8 +61,6 @@ nav {
   border-radius: 0.74rem;
   padding: var(--spacing-m);
   overflow: hidden;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .memo-top {
@@ -93,6 +94,7 @@ nav {
 .content p {
   font-size: var(--fontsize-xs);
 }
+
 
 .input-text-area {
   font-family: 'Roboto', sans-serif;
